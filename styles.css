@@ -4,8 +4,8 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  background-color: #ffffff; /* branco */
-  color: #2d2d2d; /* preto */
+  background-color: #fefeff; /* branco */
+  color: #9f89ff; /* preto */
   align-items: center;
   justify-content: center;
   justify-items: center;
@@ -15,9 +15,9 @@ body {
   max-width: 600px;
   margin: 50px 20px;
   padding: 40px 40px;
-  background-color: #ffffff; /* branco */
+  background-color: #a0b3f7; /* branco */
   border-radius: 20px;
-  box-shadow: 0 0 10px rgba(51, 0, 67, 0.2);
+  box-shadow: 0 0 10px rgba(7, 23, 170, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,14 +29,14 @@ header {
 }
 
 .logo {
-  width: 160px;
+  width: 260px;
   margin-bottom: 10px;
 }
 
 .heading {
   font-size: 22px;
   font-weight: 800;
-  color: #330043; /* roxo */
+  color: #001243; /* roxo */
   margin: 0;
 }
 
@@ -49,7 +49,7 @@ label {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #330043; /* roxo */
+  color: #000441; /* roxo */
 }
 
 input[type="text"],
@@ -58,12 +58,12 @@ input[type="email"],
 textarea {
   width: calc(100% - 24px); /* Ajuste para a largura dos inputs */
   padding: 12px;
-  border: 2px solid #330043; /* roxo */
+  border: 2px solid #958fee; /* roxo */
   border-radius: 8px;
-  background-color: rgba(51, 0, 67, 0.2); /* roxo com transparência */
+  background-color: rgb(206, 206, 255); /* roxo com transparência */
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(8, 28, 139, 0.1);
   transition: border-color 0.3s ease;
 }
 
@@ -80,7 +80,7 @@ textarea:focus {
 
 
 .btn {
-  background-color: #330043; /* roxo */
+  background-color: #515cf7; /* roxo */
   color: #ffffff; /* branco */
   width: 100%; /* Ocupa toda a largura do container */
   padding: 14px;
@@ -93,5 +93,5 @@ textarea:focus {
 }
 
 .btn:hover {
-  background-color: rgba(51, 0, 67, 0.67); /* tom mais escuro de roxo */
+  background-color: rgb(151, 153, 223); /* tom mais escuro de roxo */
 }
