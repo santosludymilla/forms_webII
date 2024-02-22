@@ -14,7 +14,11 @@
   </head>
   <body>
     <div class="container">
+      <div class="buttons">
+<a href="listagem.html"class="btn">ver formulário</a>
+      </div>
       <header>
+
         <img src="/assets/logo.curso.jpeg" alt="Logo" class="logo" />
         <h1 class="heading">Preencha sua matricula para cursos <br>
                                    gratuitos! </h1>
@@ -91,7 +95,7 @@
             body: JSON.stringify(dados),
           });
 
-          alert("formulario enviado com susesso")
+          alert("formulario enviado com susesso!")
         } catch (error) {
           console.log(error);
         }
